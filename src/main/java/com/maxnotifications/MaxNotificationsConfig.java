@@ -4,16 +4,16 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("max notifications")
 public interface MaxNotificationsConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		keyName = "keyName dummy",
+		name = "Name dummy",
+		description = "Desc dummy"
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "This is a greetings";
 	}
 }
